@@ -1,16 +1,17 @@
 import React from "react";
-import { AiOutlineSearch, AiFillHome, AiFillFlag, AiOutlinePlus } from "react-icons/ai";
-import {
-  MdSubscriptions,
-  MdSupervisedUserCircle,
-  MdForum,
-  MdNotificationsActive,
-  MdExpandMore,
-} from "react-icons/md";
-import { IoStorefrontSharp } from "react-icons/io5";
-import { CgProfile } from "react-icons/cg";
-
 import "./Header.css";
+import SearchIcon from "@mui/icons-material/Search";
+import HomeIcon from "@mui/icons-material/Home";
+import FlagIcon from "@mui/icons-material/Flag";
+import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
+import StorefrontIcon from "@mui/icons-material/Storefront";
+import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import AddBoxIcon from "@mui/icons-material/AddBox";
+import ForumIcon from "@mui/icons-material/Forum";
+import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Avatar from "@mui/material/Avatar";
 
 function Header() {
   return (
@@ -21,36 +22,36 @@ function Header() {
           alt=""
         />
         <div className="header__input">
-          <AiOutlineSearch />
-          <input type="text" />
+          <SearchIcon />
+          <input type="text" placeholder="Search Facebook" />
         </div>
       </div>
       <div className="header__center">
         <div className="header__option header__option--active">
-          <AiFillHome size="1.8em" />
+          <HomeIcon />
         </div>
         <div className="header__option">
-          <AiFillFlag size="1.8em" />
+          <FlagIcon />
         </div>
         <div className="header__option">
-          <MdSubscriptions size="1.8em" />
+          <SubscriptionsIcon />
         </div>
         <div className="header__option">
-          <IoStorefrontSharp size="1.8em" />
+          <StorefrontIcon />
         </div>
         <div className="header__option">
-          <MdSupervisedUserCircle size="1.8em" />
+          <SupervisorAccountIcon />
         </div>
       </div>
       <div className="header__right">
         <div className="header__info">
-          <CgProfile size="1.8em" />
+          <Avatar />
           <h4>Sonny Sagna</h4>
         </div>
-        <AiOutlinePlus />
-        <MdForum />
-        <MdNotificationsActive />
-        <MdExpandMore />
+        <AddBoxIcon />
+        <ForumIcon />
+        <NotificationsActiveIcon />
+        <ExpandMoreIcon />
       </div>
     </div>
   );

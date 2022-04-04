@@ -1,3 +1,5 @@
+/** @format */
+
 .header {
   height: 80px;
   display: flex;
@@ -7,6 +9,7 @@
   background-color: white;
   z-index: 100;
   box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+  margin: 0 15px;
 }
 
 .header__left {
@@ -37,6 +40,7 @@
   display: flex;
   flex: 1;
   justify-content: center;
+  align-items: center;
 }
 
 .header__option--active {
@@ -50,6 +54,9 @@
   cursor: pointer;
   color: gray;
 }
+.header__option > svg {
+  font-size: 2rem;
+}
 
 .header__option:hover {
   background-color: #eff2f5;
@@ -62,6 +69,8 @@
 
 .header__info {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__info > h4 {
@@ -76,4 +85,5 @@
 
 .header__right svg {
   color: gray;
+  font-size: 1.8rem;
 }
