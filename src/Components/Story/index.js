@@ -1,6 +1,7 @@
 import React from "react";
 import Avatar from "@mui/material/Avatar";
-import "./Story.css";
+
+import "../../Assets/Styles/Story.css";
 
 function Story({ image, profileSrc, title }) {
   return (

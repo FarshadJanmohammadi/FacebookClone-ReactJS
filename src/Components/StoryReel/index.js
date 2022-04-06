@@ -1,6 +1,7 @@
 import React from "react";
-import Story from "./Story";
-import "./StoryReel.css";
+import Story from "../../Components/Story";
+
+import "../../Assets/Styles/StoryReel.css";
 
 function StoryReel() {
   return (
@@ -11,12 +12,13 @@ function StoryReel() {
         title="Farshad Jan"
       />
       <Story
-        image="https://i.pinimg.com/564x/64/46/f1/6446f1bd7d52812b51d5f1260573bd65.jpg"
+        image="https://i.pinimg.com/564x/bc/a7/03/bca7039041bbfc61929fcb9f7f53a10f.jpg"
         profileSrc="https://i.pinimg.com/564x/6c/99/c0/6c99c00f764edf7ab63b1df69d9a1373.jpg"
         title="Rafeh Qazi"
       />
+
       <Story
-        image="https://i.pinimg.com/564x/bc/a7/03/bca7039041bbfc61929fcb9f7f53a10f.jpg"
+        image="https://i.pinimg.com/564x/64/46/f1/6446f1bd7d52812b51d5f1260573bd65.jpg"
         profileSrc="https://i.pinimg.com/564x/87/9b/f3/879bf3966cf411610cc5277c15449cd6.jpg"
         title="jame kan"
       />

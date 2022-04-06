@@ -4,16 +4,17 @@ import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 import NearMeIcon from "@mui/icons-material/NearMe";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { Avatar } from "@mui/material";
-import "./Post.css";
+
+import "../../Assets/Styles/Post.css";
 
 function Post({ profilePic, image, username, timestamp, message }) {
   return (
     <div className="post">
       <div className="post__top">
-        <Avatar src={profilePic} className="post_avatar" />
+        <Avatar src={profilePic} className="post__avatar" />
         <div className="post__topInfo">
           <h3>{username}</h3>
-          <p>TimeStamp...</p>
+          <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
         </div>
       </div>
       <div className="post__bottom">

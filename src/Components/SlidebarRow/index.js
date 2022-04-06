@@ -1,6 +1,7 @@
 import React from "react";
 import Avatar from "@mui/material/Avatar";
-import "./SidebarRow.css";
+
+import "../../Assets/Styles/SidebarRow.css";
 
 function SidebarRow({ title, src, Icon }) {
   return (

@@ -1,21 +1,12 @@
-import "./App.css";
-import Header from "./Header";
-import Sidebar from "./Sidebar";
-import Feed from "./Feed";
-import Widgets from "./Widgets";
+import React from "react";
+import Home from "./Pages/Home";
+import Login from "./Pages/Login";
+import { useStateValue } from "./Services/Reducer/StateProvider";
 
+import "./Assets/Styles/App.css";
 function App() {
-  return (
-    <div className="app">
-      <Header />
-
-      <div className="app__body">
-        <Sidebar />
-        <Feed />
-        <Widgets />
-      </div>
-    </div>
-  );
+  const [{ user }, dispatch] = useStateValue();
+  return <div className="app">{!user ? <Login /> : <Home />}</div>;
 }
 
 export default App;
