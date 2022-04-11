@@ -3,10 +3,21 @@
 
 clone Facebook using React as well as using Context and Reducer to manage the state as well as Firebase to store information
 
-## Demo
 
-Insert gif or link to demo:
+## Screenshots
+
+![App Screenshot1](https://github.com/FarshadJanmohammadi/images/blob/main/Screenshot-facebaook-1.jpg?raw=true)
+![App Screenshot1](https://github.com/FarshadJanmohammadi/images/blob/main/Screenshot-facebaook-2.jpg?raw=true)
+
+
+
+
+## Demo Online (First Turn on VPN)
+
+
 https://facebook-clone-2024a.web.app/
+
+
 
 ## Authors
 
@@ -18,8 +29,6 @@ https://facebook-clone-2024a.web.app/
 | ----------------- | ------------------------------------------------------------------ |
 | Example Color | ![#1266F1](https://via.placeholder.com/10/1266F1?text=+) #1266F1 |
 | Example Color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
-
-
 
 
 
@@ -39,6 +48,6 @@ With the ability to carry out projects individually and in groups.
 
 ## 🛠 Skills
 
-HTML, CSS, JavaScript(ES6) ,JQuery, ReactJS, Redux, Typescript, Sass, Bootstrap, Git, GraphQL 
+HTML, CSS, JavaScript(ES6) ,JQuery, ReactJS, Redux,MaterialUI, Typescript, Sass, Bootstrap, Git, GraphQL 
 
 
