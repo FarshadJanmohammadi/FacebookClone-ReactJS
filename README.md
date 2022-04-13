@@ -48,6 +48,6 @@ With the ability to carry out projects individually and in groups.
 
 ## 🛠 Skills
 
-HTML, CSS, JavaScript(ES6) ,JQuery, ReactJS, Redux,MaterialUI, Typescript, Sass, Bootstrap, Git, GraphQL 
+HTML, CSS, JavaScript(ES6) ,JQuery, ReactJS, Redux, Next, MaterialUI, Typescript, Sass, Bootstrap, Git, TailWind
 
 
