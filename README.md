@@ -21,14 +21,15 @@ https://facebook-clone-2024a.web.app/
 
 ## Authors
 
-- [@FarshadJanmohammadi](https://www.github.com/farshadjanmohammadi)
+- [Farshad Janmohammadi](https://www.FarshadJanmohammadi.ir)
 
-## Color Reference
+## Color Reference 
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#1266F1](https://via.placeholder.com/10/1266F1?text=+) #1266F1 |
+| Example Color | ![#49A6E9](https://via.placeholder.com/49A6E9?text=+) #49A6E9 |
 | Example Color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+
 
 
 
