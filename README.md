@@ -27,7 +27,7 @@ https://facebook-clone-2024a.web.app/
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#49A6E9](https://via.placeholder.com/49A6E9?text=+) #49A6E9 |
+| Example Color | ![#49A6E9](https://via.placeholder.com/10/49A6E9?text=+) #49A6E9 |
 | Example Color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
 
 
